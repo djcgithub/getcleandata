@@ -3,7 +3,7 @@
 # This repository contains the following files submitted for the Getting & Cleaning Data course project:
 * run_analysis.r => contains the R code script used to run the steps to create the tidy dataset
 * means_by_activity_subject.txt => contains the tidy dataset in text file format, produced by perfoming the data merging, cleansing and manioulation steps as outlined below under instructions performed (as shown in the R code script)
-* means_by_activity_subject_cb.pdf => code book for means_by_activity_subject.txt
+* measure_names.txt => code book for means_by_activity_subject.txt
 
 # Steps followed in producing the tidy dataset
 * Training and the test sets merged to create one data set - merge was performed by executing cbind on the 3 datasets (x_...,subject_...,y_...) for test and train first, and then conducting a rbind on the 2 resultant sets. All tables were read in using read.table with header set to false.
