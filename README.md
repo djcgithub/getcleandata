@@ -15,9 +15,9 @@
 # Before testing the run_analysis.r script it is important to ensure the following:
 * working directory should contain all datasets as available from (this should have been unzipped in this directory) https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 * the test and train datasets should be in subfolders within the working directory as the read.table code references it as:
-./train/x_train.txt
-./train/subject_train.txt
-./train/y_train.txt
-./test/x_test.txt
-./test/subject_test.txt
-./test/y_test.txt
+** ./train/x_train.txt
+** ./train/subject_train.txt
+** ./train/y_train.txt
+** ./test/x_test.txt
+** ./test/subject_test.txt
+** ./test/y_test.txt
